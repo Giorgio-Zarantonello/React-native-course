@@ -21,7 +21,7 @@
   <a href="https://github.com/github_username/repo_name">
     <img src="https://user-images.githubusercontent.com/20912128/231872126-f75f2f1e-6502-42ac-9312-f78e9a97faa2.png" alt="Logo" width="80" height="80">
   </a>
-
+</div>
 <h3 align="center">React-native-course-Udemy</h3>
 corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 
