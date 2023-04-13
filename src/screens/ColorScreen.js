@@ -24,9 +24,7 @@ const ColorScreen = () => {
   };
 
   return (
-    <View>
-      <Button title="Add a Color" onPress={handleAddColor} />
-
+    <View style={styles.container}>
       <FlatList
         style={styles.list}
         contentContainerStyle={{
@@ -44,6 +42,13 @@ const ColorScreen = () => {
           </View>
         )}
       />
+
+      <View style={styles.buttonContainer}>
+        <Button
+          style={styles.addButton}
+          title="Add a Color"
+          onPress={handleAddColor} />
+      </View>
     </View>
   );
 };
@@ -57,6 +62,12 @@ const randomRgb = () => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  addButton: {
+    width: '100%',
+  },
   list: {
     margin: 45,
   },
@@ -67,9 +78,15 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     backgroundColor: color,
-    marginBottom: 10,
+    marginBottom: 10,    
+    borderRadius: 10,
 
   }),
+  buttonContainer: {
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+  },
 });
 
 export default ColorScreen;
