@@ -19,7 +19,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://user-images.githubusercontent.com/20912128/231872126-f75f2f1e-6502-42ac-9312-f78e9a97faa2.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/20912128/231902734-c65291bf-d108-4c30-88ef-1b9153b8fdc3.png" alt="Logo" width="80" height="80">
+
   </a>
 </div>
 <h3 align="center">React-native-course-Udemy</h3>
