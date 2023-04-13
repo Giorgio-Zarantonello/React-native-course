@@ -99,7 +99,7 @@ What i've learned :
 
 ### Built With
 
-* [![React][React.js]][React-url]
+* [![React-native][React-native.js]][React-native-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -180,7 +180,7 @@ Project Link: [https://github.com/Giorgio-Zarantonello/React-native-course](http
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactnative.dev/
+[React-native-url]: https://reactnative.dev/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
