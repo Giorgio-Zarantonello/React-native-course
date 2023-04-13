@@ -124,7 +124,7 @@ Project Link: [https://github.com/Giorgio-Zarantonello/React-native-course](http
 
 * [Udemy](https://www.udemy.com/)
 * [Stephen Grider](https://www.udemy.com/user/sgslo/)
-* [Every cup of coffee consumed]()
+* [Every cup of coffee consumed]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
