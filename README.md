@@ -99,7 +99,7 @@ What i've learned :
 
 ### Built With
 
-* [![React-native][React-native.js]][React-native-url]
+* [![React][React-native.js]][React-native-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
