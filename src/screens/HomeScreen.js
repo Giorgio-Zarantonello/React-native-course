@@ -1,37 +1,30 @@
 import React from 'react';
-import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
+import { Text, StyleSheet, View, FlatList, TouchableOpacity } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
+  const items = [
+    { title: 'Components Demo', key: 'Components' },
+    { title: 'List Demo', key: 'List' },
+    { title: 'Image Demo', key: 'Image' },
+    { title: 'Counter Demo', key: 'Counter' },
+    { title: 'Color Demo', key: 'Color' },
+    { title: 'Square Demo', key: 'Square' },
+    { title: 'Text Demo', key: 'Text' },
+  ];
+
   return (
     <View>
-      <Text style={styles.text}>Hi there!</Text>
-      <Button
-        onPress={() => navigation.navigate('Components')}
-        title="Go to Components Demo"
-      />
-      <Button
-        title="Go to List Demo"
-        onPress={() => navigation.navigate('List')}
-      />
-      <Button
-        title="Go to Image Demo"
-        onPress={() => navigation.navigate('Image')}
-      />
-      <Button
-        title="Go to Counter Demo"
-        onPress={() => navigation.navigate('Counter')}
-      />
-      <Button
-        title="Go to Color Demo"
-        onPress={() => navigation.navigate('Color')}
-      />
-      <Button
-        title="Go to Square Demo"
-        onPress={() => navigation.navigate('Square')}
-      />
-      <Button
-        title="Go to Text Demo"
-        onPress={() => navigation.navigate('Text')}
+      <Text style={styles.text}>Homepage - Udemy Course</Text>
+      <FlatList
+        data={items}
+        renderItem={({ item }) => (
+          <TouchableOpacity onPress={() => navigation.navigate(item.key)}>
+            <View style={styles.buttonContainer}>
+              <Text style={styles.buttonText}>{item.title}</Text>
+            </View>
+          </TouchableOpacity>
+        )}
+        keyExtractor={(item) => item.key}
       />
     </View>
   );
@@ -39,8 +32,23 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
-  }
+    fontSize: 30,
+    margin: 20,
+    textAlign: 'center'
+  },
+  buttonContainer: {
+    marginHorizontal: 15,
+    marginVertical: 10,
+    backgroundColor: '#3498db',
+    borderRadius: 5,
+    padding: 15,
+    alignItems: 'center',
+  },
+  buttonText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color:'white'
+  },
 });
 
 export default HomeScreen;
