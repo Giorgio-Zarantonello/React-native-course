@@ -22,33 +22,51 @@ const funReducer = (state, action) => {
         case 'blue':
             return { ...state, blue: state.blue + action.amount };
         default:
-            return state; 
+            return state;
     }
 
 };
 
 const SquareScreen = () => {
 
-    //Reducer -> [now all the states are combined in an unique obj, ]
-    const [state, dispatch] = useReducer(funReducer, { red: 0, green: 0, blue: 0 });
+    //Reducer -> [now all the states are combined in an unique obj,we use RunMyReducer to provide the information for the changes in this istance of state]
+    const [state, runMyReducer] = useReducer(funReducer, { red: 0, green: 0, blue: 0 });
+    const {red , green , blue } = state;
 
 
-
-    return <View>
+    return (<View>
         <ColorCounter
-            onIncrease={() => }
-            onDecrease={() => }
+            onIncrease={() => runMyReducer({
+                colorToChange: 'red',
+                amount: COLOR_INCREMENT
+            })}
+            onDecrease={() => runMyReducer({
+                colorToChange: 'red',
+                amount: -1 * COLOR_INCREMENT
+            })}
             color="Red" />
         <ColorCounter
-            onIncrease={() => }
-            onDecrease={() => }
+            onIncrease={() => runMyReducer({
+                colorToChange: 'blue',
+                amount: COLOR_INCREMENT
+            })}
+            onDecrease={() => runMyReducer({
+                colorToChange: 'blue',
+                amount: -1 * COLOR_INCREMENT
+            })}
             color="Blue" />
         <ColorCounter
-            onIncrease={() => }
-            onDecrease={() => }
+            onIncrease={() => runMyReducer({
+                colorToChange: 'green',
+                amount: COLOR_INCREMENT
+            })}
+            onDecrease={() => runMyReducer({
+                colorToChange: 'green',
+                amount: -1 * COLOR_INCREMENT
+            })}
             color="Green" />
         <View style={{ height: 400, width: 400, backgroundColor: `rgb(${red},${green},${blue})`, marginTop: 20 }} />
-    </View>
+    </View>)
 };
 
 const style = StyleSheet.create({});
