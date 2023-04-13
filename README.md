@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://user-images.githubusercontent.com/20912128/231902734-c65291bf-d108-4c30-88ef-1b9153b8fdc3.png" alt="Logo" width="600" height="844">
+    <img width="390" height="844" src="https://user-images.githubusercontent.com/20912128/231902734-c65291bf-d108-4c30-88ef-1b9153b8fdc3.png" alt="Logo" width="80" height="80">
 
   </a>
 </div>
