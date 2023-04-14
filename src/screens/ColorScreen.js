@@ -26,7 +26,9 @@ const ColorScreen = () => {
   return (
     <View style={styles.container}>
       <FlatList
-      numColumns={5}
+      //`flexWrap: `wrap`` is not supported with the `VirtualizedList` components.
+      //Consider using `numColumns` with `FlatList` 
+      numColumns={5} 
         style={styles.list}
         contentContainerStyle={{
           justifyContent: 'flex-start',
