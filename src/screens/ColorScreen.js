@@ -70,16 +70,17 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   list: {
-    margin: 45,
+    margin: 40,
   },
   colorColumn: {
-    marginRight: 10,
+    borderColor : 'grey',
+    borderWidth : 1,
   },
   colorBox: color => ({
     height: 50,
     width: 50,
     backgroundColor: color,
-    marginBottom: 10,    
+    margin: 5,    
     borderRadius: 10,
 
   }),
