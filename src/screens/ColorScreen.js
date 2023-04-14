@@ -4,7 +4,7 @@ import { View, StyleSheet, Button, FlatList } from 'react-native';
 const ColorScreen = () => {
   const [colors, setColors] = useState([]);
   const [count, setCount] = useState(0);
-
+  console.log(colors);
   const handleAddColor = () => {
     if (count < 50) {
       if (count % 10 === 0) {
@@ -26,10 +26,9 @@ const ColorScreen = () => {
   return (
     <View style={styles.container}>
       <FlatList
+      numColumns={5}
         style={styles.list}
         contentContainerStyle={{
-          flexDirection: 'row',
-          flexWrap: 'wrap',
           justifyContent: 'flex-start',
         }}
         keyExtractor={(item, index) => index.toString()}
