@@ -66,7 +66,7 @@ const SquareScreen = () => {
                 payload: -1 * COLOR_INCREMENT
             })}
             color="Green" />
-        <View style={{ height: 400, width: 400, backgroundColor: `rgb(${red},${green},${blue})`, marginTop: 20 }} />
+        <View style={{ height: 200, width: 400, backgroundColor: `rgb(${red},${green},${blue})`, marginTop: 20 }} />
     </View>)
 };
 
