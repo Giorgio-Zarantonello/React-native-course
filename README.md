@@ -26,7 +26,7 @@
 <h3 align="center">React-native-course</h3>
 corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 
-
+<br><br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -56,6 +56,8 @@ corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 
 What i've learned : 
 * The terminology and concepts of Hooks 
+
+<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
