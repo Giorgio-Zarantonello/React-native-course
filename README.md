@@ -123,6 +123,7 @@ Project Link: [https://github.com/Giorgio-Zarantonello/React-native-course](http
 ## Acknowledgments
 
 * [Udemy](https://www.udemy.com/)
+* [Udemy link Course](https://www.udemy.com/course/the-complete-react-native-and-redux-course/)
 * [Stephen Grider](https://www.udemy.com/user/sgslo/)
 * [Every cup of coffee consumed]()
 
