@@ -23,7 +23,7 @@
 
   </a>
 </div>
-<h3 align="center">React-native-course-Udemy</h3>
+<h3 align="center">React-native-course</h3>
 corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 
 
@@ -55,12 +55,7 @@ corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 ## About The Project
 
 What i've learned : 
-* Create real-world native apps using React Native
-* Make truly reusable components that look great
-* Understand the terminology and concepts of Redux
-* Prototype and deploy your own applications to the Apple and Google Play Stores
-* Get up to speed with React design principles and methodologies
-* Discover mobile design patterns used by experienced engineers
+* The terminology and concepts of Hooks 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
