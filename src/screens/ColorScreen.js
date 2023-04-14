@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
   colorBox: color => ({
     height: 50,
     width: 50,
+    
     backgroundColor: color,
     margin: 5,    
     borderRadius: 10,

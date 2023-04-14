@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7a3ebfe-9c44-4555-9694-bf0df7d215da"
+      }
+    },
+    "owner": "gzaranto"
   }
 }

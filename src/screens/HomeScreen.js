@@ -10,12 +10,13 @@ const HomeScreen = ({ navigation }) => {
     { title: 'Color Demo', key: 'Color' },
     { title: 'Square Demo', key: 'Square' },
     { title: 'Text Demo', key: 'Text' },
+    { title: 'Box Demo', key: 'Box' },
   ];
 
   return (
     <View>
       <Text style={styles.text}>Homepage - Udemy Course</Text>
-      <FlatList
+      <FlatList style={styles.wrapper}
         data={items}
         renderItem={({ item }) => (
           <TouchableOpacity onPress={() => navigation.navigate(item.key)}>
@@ -31,6 +32,9 @@ const HomeScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  wrapper : {
+    marginBottom: 40,
+  },  
   text: {
     fontSize: 30,
     margin: 20,
