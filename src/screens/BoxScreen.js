@@ -14,6 +14,7 @@ const BoxScreen = () => {
 }
 
 const styles = StyleSheet.create({
+    //PARENT 
     viewStyle: {
         borderWidth: 3,
         borderColor: 'black',
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
         //--- properties  of Parent ---
         //--- alignItems ---
         // alignItems : 'flex-start', // DEFAULT
-        alignItems: 'center',
+        // alignItems: 'center',
         // alignItems : 'flex-end',
         //--- FlexDirection ---
         // flexDirection : 'column', // DEFAULT 
@@ -34,25 +35,33 @@ const styles = StyleSheet.create({
         // justifyContent: 'center',
 
     },
+    //CHILDRENS
     textOneStyle: {
         // flex: 4,
         borderWidth: 3,
         borderColor: 'red',
-        alignSelf: "flex-start"
+        // alignSelf: "flex-start"
     },
     textTwoStyle: {
         // flex: 2,
         borderWidth: 3,
         // alignSelf:"flex-start",
-        alignSelf: "center",
+        // alignSelf: "center",
         // alignSelf:"flex-end",
         borderColor: 'red',
+        position: "absolute",
+        // position: "relative" // DEFAULT
+        //TRICK TO FILL UP COMPLETALLY 
+        // position: "absolute",
+        // top:0,bottom:0,left:0,right:0,
+        // react gimmick , remember what ... does
+        ...StyleSheet.absoluteFillObject
     },
     textThreeStyle: {
         // flex: 4,
         borderWidth: 3,
         borderColor: 'red',
-        alignSelf: "flex-end"
+        // alignSelf: "flex-end"
     },
     // textFourStyle: {
     //     // flex: 4,
