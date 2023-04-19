@@ -13,6 +13,12 @@
 
 
 
+<h3 align="center">React-native-course</h3>
+<br>
+
+
+<h4 align="center"> sezione 1 - 7 del corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy</h4>
+<br>
 
 
 <!-- PROJECT LOGO -->
@@ -23,8 +29,6 @@
 
   </a>
 </div>
-<h3 align="center">React-native-course</h3>
-corso "The Complete React Native + Hooks Course" by Stephen Grider @Udemy
 
 <br><br>
 <!-- TABLE OF CONTENTS -->
